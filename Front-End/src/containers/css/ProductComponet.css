@@ -1,0 +1,12 @@
+.header,
+.meta.price,
+.meta {
+  text-align: center;
+}
+
+.ui.link.cards,
+.card,
+.image,
+.four.wide.column {
+  border-radius: 10px;
+}

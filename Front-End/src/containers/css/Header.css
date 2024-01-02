@@ -1,0 +1,80 @@
+.ui.fixed.menu {
+  height: 50px;
+}
+
+.nav-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.nav-item {
+  display: flex;
+  flex: 1;
+  max-width: 60px;
+  min-width: 60px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-item i,
+.nav-item p,
+.shopname {
+  color: rgb(242, 176, 32);
+  cursor: pointer;
+}
+
+.logo {
+  height: 30px;
+  margin-left: 50px;
+}
+
+.nav-item {
+  margin-top: 10px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item ul {
+  position: absolute;
+  top: 89%;
+  left: 0;
+  z-index: 1;
+  list-style: none;
+  padding: 0px;
+  margin: -10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-item li {
+  padding: 10px;
+  background-color: #f8e1c6;
+  border: 1px solid #f8e1c6;
+}
+
+.nav-item li:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.categories-list {
+  box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.2);
+  transition: all 10s ease-in-out;
+  width: 150px;
+  position: absolute;
+  left: 100%;
+  transform: translateX(-50%);
+  border: 0px;
+}
+
+.categories-list li:hover {
+  background-color: #e4e2e2;
+  color: rgb(155, 154, 154);
+}
+
+.li {
+  color: rgb(242, 176, 32) !important;
+}

@@ -1,0 +1,19 @@
+.ui.vertical.animated.button {
+  background-color: rgb(219, 137, 219);
+}
+
+.ui.teal.tag.label {
+  cursor: default;
+}
+
+.ui.brown.block.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1367px) {
+  .ui.grid.container {
+    margin-top: 100px;
+  }
+}

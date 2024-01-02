@@ -1,0 +1,121 @@
+body {
+  background: #dad299;
+  background: -webkit-linear-gradient(to right, #b0dab9, #dad299);
+  background: linear-gradient(to right, #b0dab9, #dad299);
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.ui.container.center,
+.ui.fixed.menu {
+  display: flex;
+  align-items: center;
+}
+
+.ui.cards > .card {
+  border-radius: 20px;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #ffffff;
+  margin: auto;
+}
+
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.ui.grid.container {
+  margin-top: 20px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+}
+
+.ui.grid > .row > .column.rp {
+  padding-right: 20px;
+  padding-left: 40px;
+  text-align: left;
+  align-self: flex-start !important ;
+}
+
+.ui.grid > .row > .column.rp,
+.ui.grid > .row > .column.lp {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-self: flex-start !important ;
+}
+
+.ui.grid > .row > img,
+.ui.grid > .row > .column > img {
+  height: 500px;
+}
+
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column.field,
+.ui.placeholder.segment.column.button,
+.ui.placeholder.segment.column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+
+.ui.label,
+.ui.labels.label {
+  font-size: 22px;
+}
+
+.ui.placeholder.header:not(:first-child):before,
+.ui.placeholder.image:not(:first-child):before,
+.ui.placeholder.paragraph:not(:first-child):before {
+  display: none;
+}
